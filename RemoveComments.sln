@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveComments", "RemoveComments.vcxproj", "{1698B8C8-662B-4806-B5A8-6DC994E9246B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Debug|x64.ActiveCfg = Debug|x64
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Debug|x64.Build.0 = Debug|x64
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Debug|x86.ActiveCfg = Debug|Win32
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Debug|x86.Build.0 = Debug|Win32
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Release|x64.ActiveCfg = Release|x64
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Release|x64.Build.0 = Release|x64
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Release|x86.ActiveCfg = Release|Win32
+		{1698B8C8-662B-4806-B5A8-6DC994E9246B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F9D79B4-4C2A-4CF1-8557-4E229F9224A5}
+	EndGlobalSection
+EndGlobal
