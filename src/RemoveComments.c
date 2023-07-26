@@ -20,7 +20,7 @@ static int Process_LineComment  (char ch, FileGroup *fileGroup);
 static int isBegin_StringLiteral(char ch, FILE *srcCode);
 static int Process_StringLiteral(char ch, FileGroup *fileGroup);
 static int Process_Default      (char ch, FileGroup *fileGroup);
-static int EraseComment         (FileGroup *fileGroup);
+static int RemoveComments       (FileGroup *fileGroup);
 
 static int   GetFilePath(char *result);
 static char *AddSuffix  (const char *filePath, const char *suffix, char *resultPath);
@@ -173,7 +173,7 @@ static int Process_Default(char ch, FileGroup *fileGroup)
     return 0;
 }
 
-static int EraseComment(FileGroup *fileGroup)
+static int RemoveComments(FileGroup *fileGroup)
 {
     FILE *srcCode = fileGroup->srcCode;
 
@@ -325,7 +325,7 @@ static int CLI(int argc, char *argv[])
 
     puts("...");
 
-    EraseComment(&((FileGroup) {
+    RemoveComments(&((FileGroup) {
         .srcCode     = files[0],
         .onlyCode    = files[1],
         .onlyComment = files[2],
